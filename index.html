@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Traduttore</title>
+</head>
+<body>
+    <header class="panel">
+        <h1>Traduttore</h1>
+    </header>
+    <main>
+        <section class="panel translation">
+            <div class="trans-flag"></div>
+            <div class="trans-result"><p class="trans-text">
+                Traduzione
+            </p></div>
+        </section>
+        <section class="panel control">
+            <input class="text-input" type="text" placeholder="Inserisci il testo da tradurre">
+            <button class ="l-button" data-lang ="es">🟡</button>
+            <button class ="l-button" data-lang ="en">🔴</button>
+            <button class ="l-button" data-lang ="fr">🔵</button>
+            <button class="r-button">❌</button>    
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
